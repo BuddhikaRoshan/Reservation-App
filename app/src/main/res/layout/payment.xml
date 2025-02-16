@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10"
+    android:background="@drawable/gradient_list"
+   >
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="71dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView31"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arr" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="381dp"
+        android:layout_height="76dp"
+        android:text="Payment"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inter"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="708dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/p1" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="697dp"
+        android:layout_height="253dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView31"
+        app:srcCompat="@drawable/p2" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="674dp"
+        android:layout_height="497dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView32"
+        app:srcCompat="@drawable/p3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="606dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="67dp"
+        android:background="@drawable/btn"
+        android:text="proceed"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView34" />
+</androidx.constraintlayout.widget.ConstraintLayout>

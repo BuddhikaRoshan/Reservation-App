@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity17">
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="370dp"
+            android:layout_height="506dp"
+            app:srcCompat="@drawable/b11"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="28dp" />
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="366dp"
+            android:layout_height="392dp"
+            app:srcCompat="@drawable/b13"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="562dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="220dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView54" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

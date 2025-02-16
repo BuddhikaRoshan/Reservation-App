@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context=".MainActivity16">
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="378dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/b1" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Hotel"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView44"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView12"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:adjustViewBounds="true"
+                android:layout_columnWeight="1"
+                app:srcCompat="@drawable/b2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Kandalama"
+                android:layout_marginTop="50dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inter"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+            <ImageView
+                android:id="@+id/imageView46"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_columnWeight="1"
+                app:srcCompat="@drawable/b3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Araliya"
+                android:layout_marginTop="50dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inter"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_columnWeight="1"
+                app:srcCompat="@drawable/b4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Aliya Resort"
+                android:layout_marginTop="50dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inter"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+            <ImageView
+                android:id="@+id/imageView48"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_columnWeight="1"
+                app:srcCompat="@drawable/b5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Sigiriya Hotel"
+                android:layout_marginTop="50dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inter"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_columnWeight="1"
+                app:srcCompat="@drawable/b6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Allan’s Hotel"
+                android:layout_marginTop="50dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inter"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+            <ImageView
+                android:id="@+id/imageView50"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_columnWeight="1"
+                app:srcCompat="@drawable/b7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Royal Rock"
+                android:layout_marginTop="50dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inter"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+            <ImageView
+                android:id="@+id/imageView51"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_columnWeight="1"
+                app:srcCompat="@drawable/b8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="EKHO Sigiriya" android:layout_marginTop="50dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inter"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+            <ImageView
+                android:id="@+id/imageView52"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_columnWeight="1"
+                app:srcCompat="@drawable/b9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Heritage Villa"
+                android:layout_marginTop="50dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:fontFamily="@font/inter"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+        </GridLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

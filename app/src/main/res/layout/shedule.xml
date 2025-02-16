@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity11"
+    android:background="@drawable/gradient_list">
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/calendarView"
+        app:layout_constraintEnd_toStartOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arr" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="148dp"
+        android:layout_height="28dp"
+        android:fontFamily="@font/inter"
+        android:text="Schedule"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="347dp"
+        android:layout_height="295dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/imageView25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="353dp"
+        android:layout_height="291dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="53dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView"
+        app:srcCompat="@drawable/s1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
